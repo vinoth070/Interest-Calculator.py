@@ -2,35 +2,23 @@ principle = 0
 
 rate = 0
 
-time
-
-=
-
-0
-
-while
-
-I
-
-True:
-
-principle = float(input("Enter the principle amount: ")) if principle < 0:
-
-else:
-
-print("Principle can't be less than zero")
-
-break
+time = 0
 
 while True:
 
-principle = float(input("Enter the principle amount: if principle < 0:
+    principle = float(input("Enter the principle amount: "))
+     if principle < 0:
+         print("Principle can't be less than zero"else:
+             break
+            
+while True:
+
+        principle = float(input("Enter the principle amount: if principle < 0:
 
 print("Principle can't be less than zero")
 
 else:
-
-break
+    break
 
 while True:
 
@@ -38,7 +26,7 @@ rate = float(input("Enter the interest rate: ")) if rate < 0:
 
 print("Interest rate can't be less than zero") else:
 
-break
+    break
 
 while True:
 
